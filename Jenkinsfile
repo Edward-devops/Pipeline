@@ -13,30 +13,27 @@ pipeline {
         {
             steps {
                 echo "intergration test success"
-               bat 'build.bat'
-            }
+               }
         }
         
    stage('unitestcase') 
         {
             steps {
                 echo "intergration test success"
-               bat 'unitestcase.bat'
-            }
+                         }
         }
         
    stage('qualitycheck') 
         {
             steps {
                 echo "intergration test success"
-               bat 'qualitycheck.bat'
-            }
+                          }
         }
          stage('deploy') 
         {
             steps {
                 echo "intergration test success"
-               bat 'deploy.bat'
+           
             }
         }
     }
