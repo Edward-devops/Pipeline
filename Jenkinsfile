@@ -5,7 +5,7 @@ pipeline {
         {
             steps {
                 echo "checking out"
-                git credentialsId: '9dbd834d-9dc9-49db-93a3-59604a46a3b7', url: 'https://github.com/Edward-devops/Pipeline.git'
+                
             }
         }
 
